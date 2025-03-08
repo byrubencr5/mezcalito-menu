@@ -1,0 +1,113 @@
+/*@Programador: Ruben Caro Ramirez*/
+/*Css del menu Mezcalito*/
+
+.logo-mezcalito{
+    width: 5vw;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 50px; /* Tamaño para tablets */
+    }
+    .logo-mezcalito{
+        width: 15vw;
+    }
+}
+
+header{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 30px;
+
+    background-image: url('images/img-productos/mezcalito-local.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen al tamaño del header */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.categoria{
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    width: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinear en fila */
+    overflow-x: auto; /* Permitir desplazamiento con el dedo */
+    white-space: nowrap; /* Evitar que los elementos se salten a la siguiente línea */
+    scroll-behavior: smooth; /* Desplazamiento suave */
+    scroll-snap-type: x mandatory; /* Obliga a que cada elemento se centre */
+    gap: 30px; /* Espacio entre elementos */
+    padding: 10px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+li {
+    background-color: grey;
+    font-size: 25px;
+    display: inline-block;
+    width: 300px; /* Aumentar el tamaño */
+    height: 500px; /* Más alto */
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 15px;
+    flex-shrink: 0;
+    padding: 20px;
+    scroll-snap-align: center; /* Centrar cada elemento en la pantalla */
+}
+
+.titulo-li{
+    margin-top: -1vh;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.parrafo{
+    line-height: 1;
+}
+
+.img-productos{
+    display: flex;
+    justify-self: center;
+    width: 60vw;
+    border-radius: 15px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+
+.datos-footer{
+    margin-top: -2vh;
+    margin-bottom: 2vh;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.img-redes{
+    width: 60px;
+    border-radius: 15px;
+}
