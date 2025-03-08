@@ -81,6 +81,7 @@ li {
 
 .parrafo{
     line-height: 1;
+    font-size: 15px;
 }
 
 .img-productos{
@@ -95,7 +96,6 @@ footer{
     flex-direction: column;
     margin-bottom: 5vh;
 }
-
 
 .redes{
     display: flex;
