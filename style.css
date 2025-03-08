@@ -57,7 +57,8 @@ ul {
 }
 
 li {
-    background-color: grey;
+    border-style: solid;
+    border-color: white;
     font-size: 25px;
     display: inline-block;
     width: 300px; /* Aumentar el tamaño */
@@ -81,6 +82,7 @@ li {
 
 .parrafo{
     line-height: 1;
+    font-size: 15px;
 }
 
 .img-productos{
@@ -94,11 +96,6 @@ footer{
     display: flex;
     flex-direction: column;
     margin-bottom: 5vh;
-}
-
-.datos-footer{
-    margin-top: -2vh;
-    margin-bottom: 2vh;
 }
 
 .redes{
